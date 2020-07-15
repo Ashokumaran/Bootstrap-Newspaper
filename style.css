@@ -1,7 +1,8 @@
+
+
 .custom-container{
     padding: 0 50px 0 50px !important;
 }
-
 .heading{
 font-size: 7.3rem;
 text-align: justify;
@@ -9,6 +10,10 @@ font-weight: bolder;
 line-height: 5rem;
 font-family: 'Work Sans', sans-serif;
 }
+
+
+
+
 .right{
     text-align: right;
 }
@@ -101,9 +106,54 @@ footer {
 .internal-container{
     padding: 0 35px 0 15px !important;
 }
+
 footer{
     margin-bottom: 20px;
 }
 .space{
 padding: 0 18px 0 0;
 }
+
+@media screen and (max-width: 768px){
+    .heading{
+        font-size: 5rem;
+        text-align: center;
+        font-weight: bolder;
+        line-height: 4rem;
+        font-family: 'Work Sans', sans-serif;
+        }
+        .custom-container{
+            padding: 0 20px 0 20px !important;
+        }
+        .img-big{
+            width:100%;
+            margin: 0;
+        }
+        .fl-right{
+            float: left;
+        }
+        .internal-container{
+            padding: 0 10px 0 15px !important;
+        }
+        .p-red{
+            color: #a50000;
+            font-weight: bolder;
+            font-family: ubuntu;
+            font-size: 35pt;
+            font-family: 'Ubuntu', sans-serif;
+            text-align: center;
+            line-height: 30pt;
+            text-shadow: 2px 2px #242323;
+        }
+}
+
+@media screen and (max-width:450px){
+    .heading{
+        font-size: 4rem;
+        text-align: left;
+        font-weight: bolder;
+        line-height: 3rem;
+        font-family: 'Work Sans', sans-serif;
+        }
+}
+
