@@ -150,7 +150,7 @@ padding: 0 18px 0 0;
 @media screen and (max-width:450px){
     .heading{
         font-size: 4rem;
-        text-align: left;
+        text-align: center;
         font-weight: bolder;
         line-height: 3rem;
         font-family: 'Work Sans', sans-serif;
